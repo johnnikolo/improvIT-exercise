@@ -1,0 +1,152 @@
+@import "variables";
+
+/* General layout */
+
+.layout-container {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    font-family: $roboto-font;
+    margin: 0;
+}
+
+p {
+    font-family: $montserrat-font;
+}
+
+a {
+    color: $improveIT-blue;
+}
+
+.main-content {
+    padding: 20px 40px;
+}
+
+/* Header section */
+
+.hero-text {
+    font-size: 30px;
+    color: $medium-grey;
+    text-align: center;
+    margin: 0;
+}
+
+.banner {
+    background-color: $improveIT-blue;
+    height: 30px;
+    width: 100%;
+}
+
+.improvIT-logo {
+    height: 40px;
+    width: 120px;
+}
+
+.logo-header {
+    display: flex;
+    gap: 20px;
+    padding: 0px 0px 20px 40px;
+    align-items: center;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 5px solid $light-grey;
+}
+
+/* Search bar */
+
+.input-box {
+    width: 60%;
+    display: flex;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $light-grey;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-box:hover,
+input {
+    cursor: pointer;
+}
+
+.searchbar {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.searchbar::placeholder {
+    color: $light-grey;
+    font-size: 15px;
+}
+
+.search-icon {
+    width: 30px;
+}
+
+.searchbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Results section */
+
+.results {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: $montserrat-font;
+    color: $dark-grey;
+}
+
+.search-results {
+    padding: 20px 0px;
+}
+
+.person-card {
+    border: 1px solid $light-grey;
+    margin: 10px 0px;
+}
+
+.card-preview {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: $very-light-grey;
+    border-bottom: 1px solid $light-grey;
+    color: $dark-grey;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: $montserrat-font;
+}
+
+.card-preview:hover {
+    cursor: pointer;
+}
+
+.card-details-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.card-details p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: $roboto-font;
+    color: $medium-grey;
+}
+
+.user-avatar {
+    width: 80px;
+    border-radius: 50%;
+}

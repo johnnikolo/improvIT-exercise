@@ -1,0 +1,154 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat|Roboto";
+/* Font variables */
+/* Color palette */
+/* General layout */
+.layout-container {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #0cafff;
+}
+
+.main-content {
+  padding: 20px 40px;
+}
+
+/* Header section */
+.hero-text {
+  font-size: 30px;
+  color: #929aab;
+  text-align: center;
+  margin: 0;
+}
+
+.banner {
+  background-color: #0cafff;
+  height: 30px;
+  width: 100%;
+}
+
+.improvIT-logo {
+  height: 40px;
+  width: 120px;
+}
+
+.logo-header {
+  display: flex;
+  gap: 20px;
+  padding: 0px 0px 20px 40px;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 5px solid #dbd8e3;
+}
+
+/* Search bar */
+.input-box {
+  width: 60%;
+  display: flex;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dbd8e3;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-box:hover,
+input {
+  cursor: pointer;
+}
+
+.searchbar {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.searchbar::-moz-placeholder {
+  color: #dbd8e3;
+  font-size: 15px;
+}
+
+.searchbar::placeholder {
+  color: #dbd8e3;
+  font-size: 15px;
+}
+
+.search-icon {
+  width: 30px;
+}
+
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Results section */
+.results {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #393e46;
+}
+
+.search-results {
+  padding: 20px 0px;
+}
+
+.person-card {
+  border: 1px solid #dbd8e3;
+  margin: 10px 0px;
+}
+
+.card-preview {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #dbd8e3;
+  color: #393e46;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-preview:hover {
+  cursor: pointer;
+}
+
+.card-details-wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.card-details p {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #929aab;
+}
+
+.user-avatar {
+  width: 80px;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */
